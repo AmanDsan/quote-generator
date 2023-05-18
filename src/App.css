@@ -1,38 +1,45 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+  background-color: rgba(172, 173, 222, 0.718);
+}
+.mainBox{
+  border-radius: 15px;
+  margin: 5rem;
+  width: 85vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  background-color: rgb(72, 27, 139);
+  color: white;
+  box-shadow: 5px 5px 6px rgb(42, 41, 41);
+}
+.mainBox span{
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  word-wrap: break-word;
+  width: 90%;
+  padding: 4px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainBox p{
+  font-size: 20px;
+  font-family: cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  background-color: rgb(19, 137, 50);
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 15px;
+  position: fixed;
+  bottom: 10rem;
 }
